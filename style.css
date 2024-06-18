@@ -1,0 +1,18 @@
+  /* Colors */
+  :root {
+    --primary:#4fb0a9;
+    --secondary:#f79256;
+  }
+  /*Color utilities */
+  .corolbg{
+    background-color: var(--primary);
+  }
+  .coroltext{
+    color: var(--primary);
+  }
+  .corolborder{
+    border: 2px solid var(--primary);
+  }
+  a{
+    text-decoration: none;
+  }
