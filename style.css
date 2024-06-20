@@ -16,3 +16,24 @@
   a{
     text-decoration: none;
   }
+  .container-fluid {
+    padding-left: 0;
+  }
+  .bg {
+    background-attachment: fixed;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+  }
+  /* .bg > .bg2,
+  .btn1 {
+    transform: translate(-49%, -90%);
+  }
+  .bg > .bg1,
+  .btn1 {
+    transform: translate(-62%, -55%);
+    text-align: end;
+  } */
+  .container > h1 {
+    font-size: 5.2rem;
+  }
