@@ -120,6 +120,9 @@ a {
 }
 
 /* About Pets */
+.pcard{
+  width: 14rem;
+}
 .book {
   position: relative;
   border-radius: 10px;
@@ -182,4 +185,9 @@ a {
 p {
   font-size: 20px;
   font-weight: bolder;
+}
+
+/* Pet cards */
+.fpet{
+  margin-left: 6rem;
 }
