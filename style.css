@@ -6,7 +6,7 @@
 :root {
   --primary: rgba(255, 127, 80, 0.603);
   --secondary: #f79256;
-  --tertiary: rgba(107, 30, 2, 0.815);
+  --tertiary: rgba(143, 41, 4, 0.815);
 }
 /*Color utilities */
 .lbrownbg{
@@ -199,4 +199,7 @@ img{
 }
 .book{
   background: linear-gradient(90deg, #411b02 0%, #8d4211 100%);
+}
+.mpets{
+  background-color: bisque;
 }
