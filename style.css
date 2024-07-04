@@ -191,7 +191,12 @@ p {
 .fpet{
   margin-left: 6rem;
 }
-
 img{
   height: 18rem;
+}
+.cover{
+  background: linear-gradient(90deg, #411b02 0%, #8d4211 100%);
+}
+.book{
+  background: linear-gradient(90deg, #411b02 0%, #8d4211 100%);
 }
