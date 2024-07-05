@@ -203,3 +203,13 @@ img{
 .mpets{
   background-color: bisque;
 }
+.mbutton{
+  padding-right: 9rem !important;
+  /* padding: 10rem; */
+}
+#mbutton{
+  background-color: var(--primary) !important;
+}
+#mbutton:hover{
+  font-weight: bolder;
+}
