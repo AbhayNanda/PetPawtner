@@ -293,19 +293,19 @@ img{
   margin-bottom: 3em;
   padding: 1em;
   border-radius: 10px;
-  border: 2px solid black;
+  border: 2px solid white ;
   outline: none;
   background-color: transparent;
   /* color: #64ffda; */
   font-weight: bold;
-  outline: 1px solid black;
   transition: all ease-in-out 0.3s;
+  margin-top: 1.5em;
 }
 
 .sendMessage-btn:hover {
   transition: all ease-in-out 0.3s;
-  background-color: var(--light);
-  color: black !important;
+  background-color:  #171717;
+  color: var(--light) !important;
   cursor: pointer;
   /* box-shadow: inset 2px 5px 10px rgb(5, 5, 5); */
 }
