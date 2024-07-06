@@ -1,14 +1,22 @@
-*{
+/* *{
   border: 2px solid red;
- }
+ } */
+
+ /* Color Pallete
+ primary - #543310
+ secondary - #74512D
+ tertiary - #AF8F6F
+ light - #F8F4E1
+ */
 
 
 
 /* Colors */
 :root {
-  --primary: rgba(255, 127, 80, 0.603);
-  --secondary: #f79256;
-  --tertiary: rgba(143, 41, 4, 0.815);
+  --light:#F8F4E1;
+  --primary: #543310 ;
+  --secondary: #74512D;
+  --tertiary: #AF8F6F;
 }
 /*Color utilities */
 .lbrownbg{
@@ -54,7 +62,9 @@ a {
   font-size: 5.2rem;
 }
 
-
+span{
+  color: rgb(231, 159, 72);
+}
 
 
 /* Cards CSS */
@@ -201,10 +211,7 @@ p {
 img{
   height: 18rem;
 }
-.cover{
-  background: linear-gradient(90deg, #411b02 0%, #8d4211 100%);
-}
-.book{
+.cover,.book{
   background: linear-gradient(90deg, #411b02 0%, #8d4211 100%);
 }
 .mpets{
@@ -232,15 +239,19 @@ img{
   gap: 10px;
   padding-inline: 2em;
   padding-bottom: 0.4em;
-  background-color: #171717;
-  background-color: #0a192f;
+  /* background-color: #171717;
+  background-color: #0a192f; */
   align-items: center;
+  width: 50%;
+  border-radius: 10px;
+  border: 2px solid white;
+  background-color: var(--primary);
 }
 
 .form-heading {
   text-align: center;
   margin: 2em;
-  color: #64ffda;
+  color: var(--light);
   font-size: 1.2em;
   background-color: transparent;
   align-self: center;
@@ -274,7 +285,7 @@ img{
   margin-bottom: 3em;
   padding: 1em;
   border-radius: 10px;
-  border: none;
+  border: 2px solid black;
   outline: none;
   background-color: transparent;
   color: #64ffda;
@@ -292,7 +303,7 @@ img{
 }
 
 .form-card1 {
-  background-image: linear-gradient(163deg, #64ffda 0%, #64ffda 100%);
+  /* background-image: linear-gradient(163deg, #64ffda 0%, #64ffda 100%); */
   border-radius: 22px;
   transition: all 0.3s;
 }
@@ -309,4 +320,8 @@ img{
 .form-card2:hover {
   transform: scale(0.98);
   border-radius: 20px;
+}
+.contact{
+  /* background-color: #0a192f; */
+  background-color: var(--tertiary);
 }
